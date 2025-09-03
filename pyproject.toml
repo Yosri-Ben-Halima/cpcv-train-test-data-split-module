@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cpcv-train-test-data-split-module"
+version = "0.1.0"
+description = "A Python module implementing Combinatorial Purged Cross-Validation (CPCV) with customizable embargo periods for financial model validation."
+readme = "README.md"
+authors = [
+  { name = "Yosri Ben Halima", email = "yosri.benhalima@ept.ucar.tn" }
+]
+license = { text = "MIT" }
+keywords = ["finance", "machine-learning", "cross-validation", "backtesting", "de-prado"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Financial and Insurance Industry",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Office/Business :: Financial :: Investment"
+]
+
+requires-python = ">=3.8"
+dependencies = [
+  "pandas>=1.5",
+  "numpy>=1.21",
+  "scikit-learn>=1.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Yosri-Ben-Halima/cpcv-train-test-data-split-module"
+"Bug Tracker" = "https://github.com/Yosri-Ben-Halima/cpcv-train-test-data-split-module/issues"
