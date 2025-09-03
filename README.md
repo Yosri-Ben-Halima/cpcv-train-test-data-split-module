@@ -8,6 +8,12 @@ CPCV with Embargo prevents leakage in time series cross-validation by purging ov
 pip install git+https://github.com/yosri-bh/cpcv-train-test-data-split-module.git
 ```
 
+or
+
+```bash
+pip install cpcv
+```
+
 ## Usage
 
 ```python
