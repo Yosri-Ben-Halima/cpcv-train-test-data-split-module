@@ -34,3 +34,6 @@ dependencies = [
 [project.urls]
 "Homepage" = "https://github.com/Yosri-Ben-Halima/cpcv-train-test-data-split-module"
 "Bug Tracker" = "https://github.com/Yosri-Ben-Halima/cpcv-train-test-data-split-module/issues"
+
+[tool.setuptools]
+packages = ["cpcv"]
